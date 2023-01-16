@@ -1,0 +1,2371 @@
+@import url('https://googleapis.com/css?family=poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+  max-resolution: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box ;
+  font-family: 'poppins', sans-serif;
+}
+.backgroundimg
+{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,75),rgba(0,0,0,75)),url(a.png);
+  background-size: cover;
+  background-position: center;
+
+}
+.bd
+{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #fff;
+  background-size: cover;
+}
+
+.container
+{
+  position: absolute;
+  top: 120%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+
+.container2
+{
+  position: absolute;
+  top: 170%;
+  left: 75%;
+  transform: translate(-50%,-50%);
+  width: 600px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0,0,0,.2);
+}
+.p11
+{
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  line-height: 30px;
+}
+.h11
+{
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 30px;
+}
+.card
+{
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+.card1
+{      position: absolute;
+  top: 120%;
+  left: 75%;
+    background-image: url(tnstc1.png);
+
+
+}
+.card1:hover h5
+{
+  opacity: 0.8;
+}
+.card2:hover h5
+{
+  opacity: 0.8;
+}
+.card3:hover h5
+{
+  opacity: 0.8;
+}
+.card4:hover h5
+{
+  opacity: 0.8;
+}
+.card1:hover .pp1
+{
+  opacity: 0.8;
+}
+.card2:hover .pp2
+{
+  opacity: 0.8;
+}
+.card3:hover .pp3
+{
+  opacity: 0.8;
+}
+.card4:hover .pp4
+{
+  opacity: 0.8;
+}
+.card2
+{     position: absolute;
+  top: 105%;
+  left: 43%;
+    background-image: url(tnstc2.png);
+
+}
+.card3
+{     position: absolute;
+  top: 153%;
+  left: 42%;
+    background-image: url(tnstc3.jpg);
+}
+.card4
+{     position: absolute;
+  top: 142%;
+  left: 8%;
+    background-image: url(tnstc4.png);
+}
+.card5
+{     position: absolute;
+  top: 170%;
+  left: 25%;
+}
+.card:hover{
+  transform: translate(-10px);
+
+}
+
+h5{
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 3;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: none;
+  cursor: pointer;
+}
+.pp1
+{
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 15px;
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  position: absolute;
+  top: 10;
+  left: 0;
+  right: 3;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: none;
+  cursor: pointer;
+}
+.pp2
+{
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 15px;
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  position: absolute;
+  top: 10;
+  left: 0;
+  right: 3;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: none;
+  cursor: pointer;
+}
+.pp3
+{
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 15px;
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  position: absolute;
+  top: 10;
+  left: 0;
+  right: 3;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: none;
+  cursor: pointer;
+}
+.pp4
+{
+  color: #fff;
+  text-shadow: 0 0 15px #000;
+  font-size: 15px;
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  position: absolute;
+  top: 10;
+  left: 0;
+  right: 1;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: none;
+  cursor: pointer;
+}
+.mainconductor1
+{
+  position: relative;
+  width: 250px;
+  height: 320px;
+
+
+}
+
+.thecard1
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+ left: 100px;
+}
+.thecard1:hover
+{
+  transform: rotateY(180deg);
+}
+.thefront1
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image: url(tnstckovai.jpg);
+  background-size: cover;
+  background-position: -28px;
+  color:#000;
+  text-align: center;
+  font-family:'zilla slab',sans-serif;
+  border-radius: 20px;
+  position: absolute;
+  top:30px;
+
+  font-size: 30px;
+  font-weight: bold;
+}
+.theback1
+{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #fafafa;
+    color:#333;
+    transform: rotateY(180deg);
+    background-image: url(tnstckovai.jpg);
+    background-size: cover;
+    background-position: -28px;
+    opacity: .60;
+    text-align: center;
+    font-family:'zilla slab',sans-serif;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.button1
+{
+  position: absolute;
+  top: 230px;
+    left: 45px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 4px #000000;
+    -moz-box-shadow: 0px 1px 4px #000000;
+    box-shadow: 0px 1px 4px #000000;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 22px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+
+  }
+
+  .button1:hover {
+    background: #b3b3b3;
+    text-decoration: none;
+  }
+
+
+  .mainconductor2
+  {
+    position: relative;
+    width: 250px;
+    height: 320px;
+
+
+  }
+
+  .thecard2
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+
+  }
+  .thecard2:hover
+  {
+    transform: rotateY(180deg);
+  }
+  .thefront2
+  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-image: url(Ttnstckomb.jpg);
+    background-size: cover;
+    background-position: -28px;
+    color:#000;
+    text-align: center;
+    font-family:'zilla slab',sans-serif;
+    border-radius: 20px;
+    position: absolute;
+    top:30px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .theback2
+  {
+
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background: #fafafa;
+      color:#333;
+      transform: rotateY(180deg);
+      background-image: url(Ttnstckomb.jpg);
+      background-size: cover;
+      background-position: -28px;
+      opacity: .60;
+      text-align: center;
+      font-family:'zilla slab',sans-serif;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+
+  .button2
+  {
+    position: absolute;
+    top: 230px;
+      left: 45px;
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      -webkit-box-shadow: 0px 1px 4px #000000;
+      -moz-box-shadow: 0px 1px 4px #000000;
+      box-shadow: 0px 1px 4px #000000;
+      font-family: Courier New;
+      color: #ffffff;
+      font-size: 22px;
+      background: #000000;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+
+
+    }
+
+    .button2:hover {
+      background: #b3b3b3;
+      text-decoration: none;
+    }
+.box2
+    {
+      position: absolute;
+      top: 1504px;
+      left: 453px;
+    }
+    .mainconductor3
+    {
+      position: relative;
+      width: 250px;
+      height: 320px;
+
+
+    }
+
+    .thecard3
+    {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: all 0.5s ease;
+
+    }
+    .thecard3:hover
+    {
+      transform: rotateY(180deg);
+    }
+    .thefront3
+    {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      background-image: url(Ttnstckom.jpg);
+      background-size: cover;
+      background-position: -28px;
+      color:#000;
+      text-align: center;
+      font-family:'zilla slab',sans-serif;
+      border-radius: 20px;
+      position: absolute;
+      top:30px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .theback3
+    {
+
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        background: #fafafa;
+        color:#333;
+        transform: rotateY(180deg);
+        background-image: url(Ttnstckom.jpg);
+        background-size: cover;
+        background-position: -28px;
+        opacity: .60;
+        text-align: center;
+        font-family:'zilla slab',sans-serif;
+        border-radius: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+
+    .button3
+    {
+      position: absolute;
+      top: 230px;
+        left: 45px;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        -webkit-box-shadow: 0px 1px 4px #000000;
+        -moz-box-shadow: 0px 1px 4px #000000;
+        box-shadow: 0px 1px 4px #000000;
+        font-family: Courier New;
+        color: #ffffff;
+        font-size: 22px;
+        background: #000000;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+
+
+      }
+
+      .button3:hover {
+        background: #b3b3b3;
+        text-decoration: none;
+      }
+
+      .box3
+          {
+            position: absolute;
+            top: 1504px;
+            left: 803px;
+          }
+          .mainconductor4
+          {
+            position: relative;
+            width: 250px;
+            height: 320px;
+
+
+          }
+
+          .thecard4
+          {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: all 0.5s ease;
+
+          }
+          .thecard4:hover
+          {
+            transform: rotateY(180deg);
+          }
+          .thefront4
+          {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            background-image: url(Ttnstckom.jpg);
+            background-size: cover;
+            background-position: -28px;
+            color:#000;
+            text-align: center;
+            font-family:'zilla slab',sans-serif;
+            border-radius: 20px;
+            position: absolute;
+            top:30px;
+            font-size: 30px;
+            font-weight: bold;
+          }
+          .theback4
+          {
+
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              backface-visibility: hidden;
+              background: #fafafa;
+              color:#333;
+              transform: rotateY(180deg);
+              background-image: url(Ttnstckom.jpg);
+              background-size: cover;
+              background-position: -28px;
+              opacity: .60;
+              text-align: center;
+              font-family:'zilla slab',sans-serif;
+              border-radius: 20px;
+              font-size: 18px;
+              font-weight: bold;
+          }
+
+
+          .button4
+          {
+            position: absolute;
+            top: 230px;
+              left: 45px;
+              -webkit-border-radius: 28;
+              -moz-border-radius: 28;
+              border-radius: 28px;
+              -webkit-box-shadow: 0px 1px 4px #000000;
+              -moz-box-shadow: 0px 1px 4px #000000;
+              box-shadow: 0px 1px 4px #000000;
+              font-family: Courier New;
+              color: #ffffff;
+              font-size: 22px;
+              background: #000000;
+              padding: 10px 20px 10px 20px;
+              text-decoration: none;
+
+
+            }
+
+            .button4:hover {
+              background: #b3b3b3;
+              text-decoration: none;
+            }
+
+            .box4
+                {
+                  position: absolute;
+                  top: 1504px;
+                  left: 1153px;
+                }
+
+            .mainconductor5
+            {
+              position: relative;
+              width: 250px;
+              height: 320px;
+
+
+            }
+
+            .thecard5
+            {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transform-style: preserve-3d;
+              transition: all 0.5s ease;
+
+            }
+            .thecard5:hover
+            {
+              transform: rotateY(180deg);
+            }
+            .thefront5
+            {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              backface-visibility: hidden;
+              background-image: url(Ttnstckom.jpg);
+              background-size: cover;
+              background-position: -28px;
+              color:#000;
+              text-align: center;
+              font-family:'zilla slab',sans-serif;
+              border-radius: 20px;
+              position: absolute;
+              top:30px;
+              font-size: 30px;
+              font-weight: bold;
+            }
+            .theback5
+            {
+
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+                background: #fafafa;
+                color:#333;
+                transform: rotateY(180deg);
+                background-image: url(Ttnstckom.jpg);
+                background-size: cover;
+                background-position: -28px;
+                opacity: .60;
+                text-align: center;
+                font-family:'zilla slab',sans-serif;
+                border-radius: 20px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+
+            .button5
+            {
+              position: absolute;
+              top: 230px;
+                left: 45px;
+                -webkit-border-radius: 28;
+                -moz-border-radius: 28;
+                border-radius: 28px;
+                -webkit-box-shadow: 0px 1px 4px #000000;
+                -moz-box-shadow: 0px 1px 4px #000000;
+                box-shadow: 0px 1px 4px #000000;
+                font-family: Courier New;
+                color: #ffffff;
+                font-size: 22px;
+                background: #000000;
+                padding: 10px 20px 10px 20px;
+                text-decoration: none;
+
+
+              }
+
+              .button5:hover {
+                background: #b3b3b3;
+                text-decoration: none;
+              }
+              .box5
+                  {
+                    position: absolute;
+                    top: 1904px;
+                    left: 453px;
+                  }
+
+              .mainconductor6
+              {
+                position: relative;
+                width: 250px;
+                height: 320px;
+
+
+              }
+
+              .thecard6
+              {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transform-style: preserve-3d;
+                transition: all 0.5s ease;
+
+              }
+              .thecard6:hover
+              {
+                transform: rotateY(180deg);
+              }
+              .thefront6
+              {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                backface-visibility: hidden;
+                background-image: url(Ttnstckom.jpg);
+                background-size: cover;
+                background-position: -28px;
+                color:#000;
+                text-align: center;
+                font-family:'zilla slab',sans-serif;
+                border-radius: 20px;
+                position: absolute;
+                top:30px;
+                font-size: 30px;
+                font-weight: bold;
+              }
+              .theback6
+              {
+
+                  position: absolute;
+                  width: 100%;
+                  height: 100%;
+                  backface-visibility: hidden;
+                  background: #fafafa;
+                  color:#333;
+                  transform: rotateY(180deg);
+                  background-image: url(Ttnstckom.jpg);
+                  background-size: cover;
+                  background-position: -28px;
+                  opacity: .60;
+                  text-align: center;
+                  font-family:'zilla slab',sans-serif;
+                  border-radius: 20px;
+                  font-size: 18px;
+                  font-weight: bold;
+              }
+
+
+              .button6
+              {
+                position: absolute;
+                top: 230px;
+                  left: 45px;
+                  -webkit-border-radius: 28;
+                  -moz-border-radius: 28;
+                  border-radius: 28px;
+                  -webkit-box-shadow: 0px 1px 4px #000000;
+                  -moz-box-shadow: 0px 1px 4px #000000;
+                  box-shadow: 0px 1px 4px #000000;
+                  font-family: Courier New;
+                  color: #ffffff;
+                  font-size: 22px;
+                  background: #000000;
+                  padding: 10px 20px 10px 20px;
+                  text-decoration: none;
+
+
+                }
+
+                .button6:hover {
+                  background: #b3b3b3;
+                  text-decoration: none;
+                }
+                .box6
+                    {
+                      position: absolute;
+                      top: 1904px;
+                      left: 110px;
+                    }
+
+                    .mainconductor7
+                    {
+                      position: relative;
+                      width: 250px;
+                      height: 320px;
+
+
+                    }
+
+                    .thecard7
+                    {
+                      position: absolute;
+                      width: 100%;
+                      height: 100%;
+                      transform-style: preserve-3d;
+                      transition: all 0.5s ease;
+
+                    }
+                    .thecard7:hover
+                    {
+                      transform: rotateY(180deg);
+                    }
+                    .thefront7
+                    {
+                      position: absolute;
+                      width: 100%;
+                      height: 100%;
+                      backface-visibility: hidden;
+                      background-image: url(Ttnstckom.jpg);
+                      background-size: cover;
+                      background-position: -28px;
+                      color:#000;
+                      text-align: center;
+                      font-family:'zilla slab',sans-serif;
+                      border-radius: 20px;
+                      position: absolute;
+                      top:30px;
+                      font-size: 30px;
+                      font-weight: bold;
+                    }
+                    .theback7
+                    {
+
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        backface-visibility: hidden;
+                        background: #fafafa;
+                        color:#333;
+                        transform: rotateY(180deg);
+                        background-image: url(Ttnstckom.jpg);
+                        background-size: cover;
+                        background-position: -28px;
+                        opacity: .60;
+                        text-align: center;
+                        font-family:'zilla slab',sans-serif;
+                        border-radius: 20px;
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+
+                    .button7
+                    {
+                      position: absolute;
+                      top: 230px;
+                        left: 45px;
+                        -webkit-border-radius: 28;
+                        -moz-border-radius: 28;
+                        border-radius: 28px;
+                        -webkit-box-shadow: 0px 1px 4px #000000;
+                        -moz-box-shadow: 0px 1px 4px #000000;
+                        box-shadow: 0px 1px 4px #000000;
+                        font-family: Courier New;
+                        color: #ffffff;
+                        font-size: 22px;
+                        background: #000000;
+                        padding: 10px 20px 10px 20px;
+                        text-decoration: none;
+
+
+                      }
+
+                      .button7:hover {
+                        background: #b3b3b3;
+                        text-decoration: none;
+                      }
+                      .box7
+                          {
+                            position: absolute;
+                            top: 1904px;
+                            left: 803px;
+                          }
+
+
+
+                                              .mainconductor8
+                                              {
+                                                position: relative;
+                                                width: 250px;
+                                                height: 320px;
+
+
+                                              }
+
+                                              .thecard8
+                                              {
+                                                position: absolute;
+                                                width: 100%;
+                                                height: 100%;
+                                                transform-style: preserve-3d;
+                                                transition: all 0.5s ease;
+
+                                              }
+                                              .thecard8:hover
+                                              {
+                                                transform: rotateY(180deg);
+                                              }
+                                              .thefront8
+                                              {
+                                                position: absolute;
+                                                width: 100%;
+                                                height: 100%;
+                                                backface-visibility: hidden;
+                                                background-image: url(Ttnstckom.jpg);
+                                                background-size: cover;
+                                                background-position: -28px;
+                                                color:#000;
+                                                text-align: center;
+                                                font-family:'zilla slab',sans-serif;
+                                                border-radius: 20px;
+                                                position: absolute;
+                                                top:30px;
+                                                font-size: 30px;
+                                                font-weight: bold;
+                                              }
+                                              .theback8
+                                              {
+
+                                                  position: absolute;
+                                                  width: 100%;
+                                                  height: 100%;
+                                                  backface-visibility: hidden;
+                                                  background: #fafafa;
+                                                  color:#333;
+                                                  transform: rotateY(180deg);
+                                                  background-image: url(Ttnstckom.jpg);
+                                                  background-size: cover;
+                                                  background-position: -28px;
+                                                  opacity: .60;
+                                                  text-align: center;
+                                                  font-family:'zilla slab',sans-serif;
+                                                  border-radius: 20px;
+                                                  font-size: 18px;
+                                                  font-weight: bold;
+                                              }
+
+
+                                              .button8
+                                              {
+                                                position: absolute;
+                                                top: 230px;
+                                                  left: 45px;
+                                                  -webkit-border-radius: 28;
+                                                  -moz-border-radius: 28;
+                                                  border-radius: 28px;
+                                                  -webkit-box-shadow: 0px 1px 4px #000000;
+                                                  -moz-box-shadow: 0px 1px 4px #000000;
+                                                  box-shadow: 0px 1px 4px #000000;
+                                                  font-family: Courier New;
+                                                  color: #ffffff;
+                                                  font-size: 22px;
+                                                  background: #000000;
+                                                  padding: 10px 20px 10px 20px;
+                                                  text-decoration: none;
+
+
+                                                }
+
+                                                .button8:hover {
+                                                  background: #b3b3b3;
+                                                  text-decoration: none;
+                                                }
+                                                .box8
+                                                    {
+                                                      position: absolute;
+                                                      top: 1904px;
+                                                      left: 1153px;
+                                                  }
+
+
+/*body
+{
+  min-height: 100vh;
+  background: linear-gradient(#2b1055,#7597de);
+
+}*/
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a
+{
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active
+{
+  background: #fff;
+  color: #2b1055;
+}
+
+
+/*tnstc kovai next page
+.tnstckovaibackground
+{  width: 100%;
+   height: 100vh;
+   background-color: black;
+}
+*/
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+    .mainconductor1
+    {
+      position: relative;
+      width: 200px;
+      height: 270px;
+    }
+    .button1
+    {
+      position: absolute;
+      top: 230px;
+        left: 45px;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        -webkit-box-shadow: 0px 1px 4px #000000;
+        -moz-box-shadow: 0px 1px 4px #000000;
+        box-shadow: 0px 1px 4px #000000;
+        font-family: Courier New;
+        color: #ffffff;
+        font-size: 22px;
+        background: #000000;
+        padding: 5px 1px 1px 2px;
+        text-decoration: none;
+
+
+      }
+      .thecard2
+      {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+       left: 100px;
+      }
+      .mainconductor2
+      {
+        position: relative;
+        width: 200px;
+        height: 270px;
+      }
+      .button2
+      {
+        position: absolute;
+        top: 230px;
+          left: 45px;
+          -webkit-border-radius: 28;
+          -moz-border-radius: 28;
+          border-radius: 28px;
+          -webkit-box-shadow: 0px 1px 4px #000000;
+          -moz-box-shadow: 0px 1px 4px #000000;
+          box-shadow: 0px 1px 4px #000000;
+          font-family: Courier New;
+          color: #ffffff;
+          font-size: 22px;
+          background: #000000;
+          padding: 5px 1px 1px 2px;
+          text-decoration: none;
+
+
+        }
+        .box2
+            {
+              position: absolute;
+              top: 1504px;
+              left: 263px;
+            }
+            .thecard3
+            {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transform-style: preserve-3d;
+              transition: all 0.5s ease;
+             left: 10px;
+            }
+            .mainconductor3
+            {
+              position: relative;
+              width: 200px;
+              height: 270px;
+            }
+            .button3
+            {
+              position: absolute;
+              top: 230px;
+                left: 45px;
+                -webkit-border-radius: 28;
+                -moz-border-radius: 28;
+                border-radius: 28px;
+                -webkit-box-shadow: 0px 1px 4px #000000;
+                -moz-box-shadow: 0px 1px 4px #000000;
+                box-shadow: 0px 1px 4px #000000;
+                font-family: Courier New;
+                color: #ffffff;
+                font-size: 22px;
+                background: #000000;
+                padding: 5px 1px 1px 2px;
+                text-decoration: none;
+
+
+              }
+              .box3
+                  {
+                    position: absolute;
+                    top: 1814px;
+                    left: 353px;
+                  }
+                      .thecard4
+                      {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        transform-style: preserve-3d;
+                        transition: all 0.5s ease;
+                       left: 10px;
+                      }
+                      .mainconductor4
+                      {
+                        position: relative;
+                        width: 200px;
+                        height: 270px;
+                      }
+                      .button4
+                      {
+                        position: absolute;
+                        top: 230px;
+                          left: 45px;
+                          -webkit-border-radius: 28;
+                          -moz-border-radius: 28;
+                          border-radius: 28px;
+                          -webkit-box-shadow: 0px 1px 4px #000000;
+                          -moz-box-shadow: 0px 1px 4px #000000;
+                          box-shadow: 0px 1px 4px #000000;
+                          font-family: Courier New;
+                          color: #ffffff;
+                          font-size: 22px;
+                          background: #000000;
+                          padding: 5px 1px 1px 2px;
+                          text-decoration: none;
+
+
+                        }
+                        .box4
+                            {
+                              position: absolute;
+                              top: 1814px;
+                              left: 100px;
+                            }
+
+                            .thecard5
+                            {
+                              position: absolute;
+                              width: 100%;
+                              height: 100%;
+                              transform-style: preserve-3d;
+                              transition: all 0.5s ease;
+                             left: 10px;
+                            }
+                            .mainconductor5
+                            {
+                              position: relative;
+                              width: 200px;
+                              height: 270px;
+                            }
+                            .button5
+                            {
+                              position: absolute;
+                              top: 230px;
+                                left: 45px;
+                                -webkit-border-radius: 28;
+                                -moz-border-radius: 28;
+                                border-radius: 28px;
+                                -webkit-box-shadow: 0px 1px 4px #000000;
+                                -moz-box-shadow: 0px 1px 4px #000000;
+                                box-shadow: 0px 1px 4px #000000;
+                                font-family: Courier New;
+                                color: #ffffff;
+                                font-size: 22px;
+                                background: #000000;
+                                padding: 5px 1px 1px 2px;
+                                text-decoration: none;
+
+
+                              }
+                              .box5
+                                  {
+                                    position: absolute;
+                                    top: 2114px;
+                                    left: 100px;
+                                  }
+
+                                  .thecard6
+                                  {
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100%;
+                                    transform-style: preserve-3d;
+                                    transition: all 0.5s ease;
+                                   left: 10px;
+                                  }
+                                  .mainconductor6
+                                  {
+                                    position: relative;
+                                    width: 200px;
+                                    height: 270px;
+                                  }
+                                  .button6
+                                  {
+                                    position: absolute;
+                                    top: 230px;
+                                      left: 45px;
+                                      -webkit-border-radius: 28;
+                                      -moz-border-radius: 28;
+                                      border-radius: 28px;
+                                      -webkit-box-shadow: 0px 1px 4px #000000;
+                                      -moz-box-shadow: 0px 1px 4px #000000;
+                                      box-shadow: 0px 1px 4px #000000;
+                                      font-family: Courier New;
+                                      color: #ffffff;
+                                      font-size: 22px;
+                                      background: #000000;
+                                      padding: 5px 1px 1px 2px;
+                                      text-decoration: none;
+
+
+                                    }
+                                    .box6
+                                        {
+                                          position: absolute;
+                                          top: 2114px;
+                                          left: 353px;
+                                        }
+                                        .thecard7
+                                        {
+                                          position: absolute;
+                                          width: 100%;
+                                          height: 100%;
+                                          transform-style: preserve-3d;
+                                          transition: all 0.5s ease;
+                                         left: 10px;
+                                        }
+                                        .mainconductor7
+                                        {
+                                          position: relative;
+                                          width: 200px;
+                                          height: 270px;
+                                        }
+                                        .button7
+                                        {
+                                          position: absolute;
+                                          top: 230px;
+                                            left: 45px;
+                                            -webkit-border-radius: 28;
+                                            -moz-border-radius: 28;
+                                            border-radius: 28px;
+                                            -webkit-box-shadow: 0px 1px 4px #000000;
+                                            -moz-box-shadow: 0px 1px 4px #000000;
+                                            box-shadow: 0px 1px 4px #000000;
+                                            font-family: Courier New;
+                                            color: #ffffff;
+                                            font-size: 22px;
+                                            background: #000000;
+                                            padding: 5px 1px 1px 2px;
+                                            text-decoration: none;
+
+
+                                          }
+                                          .box7
+                                              {
+                                                position: absolute;
+                                                top: 2414px;
+                                                left: 353px;
+                                              }
+                                              .thecard8
+                                              {
+                                                position: absolute;
+                                                width: 100%;
+                                                height: 100%;
+                                                transform-style: preserve-3d;
+                                                transition: all 0.5s ease;
+                                               left: 10px;
+                                              }
+                                              .mainconductor8
+                                              {
+                                                position: relative;
+                                                width: 200px;
+                                                height: 270px;
+                                              }
+
+                                              .button8
+                                              {
+                                                position: absolute;
+                                                top: 230px;
+                                                  left: 45px;
+                                                  -webkit-border-radius: 28;
+                                                  -moz-border-radius: 28;
+                                                  border-radius: 28px;
+                                                  -webkit-box-shadow: 0px 1px 4px #000000;
+                                                  -moz-box-shadow: 0px 1px 4px #000000;
+                                                  box-shadow: 0px 1px 4px #000000;
+                                                  font-family: Courier New;
+                                                  color: #ffffff;
+                                                  font-size: 22px;
+                                                  background: #000000;
+                                                  padding: 5px 1px 1px 2px;
+                                                  text-decoration: none;
+
+
+                                                }
+                                                .box8
+                                                    {
+                                                      position: absolute;
+                                                      top: 2414px;
+                                                      left: 100px;
+                                                    }
+                                                    .thefront2
+                                                    {
+                                                      position: absolute;
+                                                      width: 100%;
+                                                      height: 100%;
+                                                      backface-visibility: hidden;
+                                                      background-image: url(Ttnstckomb.jpg);
+                                                      background-size: cover;
+                                                      background-position: -28px;
+                                                      color:#000;
+                                                      text-align: center;
+                                                      font-family:'zilla slab',sans-serif;
+                                                      border-radius: 20px;
+                                                      position: absolute;
+                                                      top:30px;
+                                                      font-size: 26px;
+                                                      font-weight: bold;
+                                                    }
+                                                    .container
+                                                    {
+                                                      position: absolute;
+                                                      top: 120%;
+                                                      left: 50%;
+                                                      transform: translate(-50%,-50%);
+                                                      width: 400px;
+                                                      padding: 30px;
+                                                      background: #fff;
+                                                      box-sizing: border-box;
+                                                      border-radius: 10px;
+                                                      box-shadow: 0 15px 50px rgba(0,0,0,.2);
+                                                    }
+
+                                                    .container2
+                                                    {
+                                                      position: absolute;
+                                                      top: 190%;
+                                                      left: 50%;
+                                                      transform: translate(-50%,-50%);
+                                                      width: 400px;
+                                                      padding: 30px;
+                                                      background: #fff;
+                                                      box-sizing: border-box;
+                                                      border-radius: 10px;
+                                                      box-shadow: 0 15px 50px rgba(0,0,0,.2);
+                                                    }
+                                                    .pp1
+                                                    {
+                                                      color: #fff;
+                                                      text-shadow: 0 0 15px #000;
+                                                      font-size: 8px;
+                                                      color: #fff;
+                                                      text-shadow: 0 0 5px #999;
+                                                      position: absolute;
+                                                      top: 10;
+                                                      left: 0;
+                                                      right: 3;
+                                                      bottom: 0;
+                                                      opacity: 0;
+                                                      transition: opacity 0.4s ease-in-out;
+                                                      background: none;
+                                                      cursor: pointer;
+                                                    }
+    header{
+        padding:2rem;
+    }
+
+    section{
+        padding:2rem;
+    }
+
+    .home{
+        background-position: left;
+    }
+
+    .card
+    {
+      width: 130px;
+      height: 160px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+    }
+    .container
+    {
+      position: absolute;
+      top: 120%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 600px;
+      padding: 30px;
+      background: #fff;
+      box-sizing: border-box;
+      border-radius: 10px;
+      box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    }
+
+    .container2
+    {
+      position: absolute;
+      top: 170%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      width: 600px;
+      padding: 30px;
+      background: #fff;
+      box-sizing: border-box;
+      border-radius: 10px;
+      box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    }
+    .card1
+    {
+      position: absolute;
+      top: 980px;
+    }
+    .card2
+    {
+      position: absolute;
+      top: 980px;
+      left: 440px;
+    }
+    .card3
+    {
+      position: absolute;
+      top: 980px;
+      left: 240px;
+    }
+    .card4
+    {
+      position: absolute;
+      top: 980px;
+      left: 25px;
+    }
+    .mobile
+    { position: absolute;
+      width: 50%;
+      height: 50%;
+    }
+}
+
+@media (max-width:768px){
+
+    header .fa-bars{
+        display: block;
+    }
+
+    header .navbar{
+        position:absolute;
+        top:100%; left:0; right:0;
+        background:#eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background:#fff;
+        border:.1rem solid rgba(0,0,0,.1);
+        display: block;
+    }
+
+    .home .content h3{
+        font-size: 5rem;
+    }
+
+    .home .content span{
+        font-size: 2.5rem;
+    }
+
+    .icons-container .icons h3{
+        font-size: 2rem;
+    }
+
+    .icons-container .icons span{
+        font-size: 1.7rem;
+    }
+    .card
+    {
+      width: 100px;
+      height: 130px;
+      display: inline-block;
+      border-radius: 10px;
+      padding: 15px 25px;
+      box-sizing: border-box;
+      cursor: pointer;
+      margin: 10px 15px;
+
+      background-position: center;
+      background-size: cover;
+      transition: transform 0.5s;
+    }
+    .card1
+    {
+      position: absolute;
+      top: 1147px;
+      left: 390px;
+    }
+    .card2
+    {
+      position: absolute;
+      top: 1010px;
+      left: 390px;
+    }
+    .card3
+    {
+      position: absolute;
+      top: 1147px;
+      left: 25px;
+    }
+    .card4
+    {
+      position: absolute;
+      top: 1010px;
+      left: 25px;
+
+    }
+
+      .thecard1
+      {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+       left: 10px;
+      }
+      .mainconductor1
+      {
+        position: relative;
+        width: 200px;
+        height: 270px;
+      }
+      .button1
+      {
+        position: absolute;
+        top: 230px;
+          left: 45px;
+          -webkit-border-radius: 28;
+          -moz-border-radius: 28;
+          border-radius: 28px;
+          -webkit-box-shadow: 0px 1px 4px #000000;
+          -moz-box-shadow: 0px 1px 4px #000000;
+          box-shadow: 0px 1px 4px #000000;
+          font-family: Courier New;
+          color: #ffffff;
+          font-size: 22px;
+          background: #000000;
+          padding: 5px 1px 1px 2px;
+          text-decoration: none;
+
+
+        }
+        .thecard2
+        {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          transform-style: preserve-3d;
+          transition: all 0.5s ease;
+         left: 10px;
+        }
+        .mainconductor2
+        {
+          position: relative;
+          width: 200px;
+          height: 270px;
+        }
+        .button2
+        {
+          position: absolute;
+          top: 230px;
+            left: 45px;
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 28px;
+            -webkit-box-shadow: 0px 1px 4px #000000;
+            -moz-box-shadow: 0px 1px 4px #000000;
+            box-shadow: 0px 1px 4px #000000;
+            font-family: Courier New;
+            color: #ffffff;
+            font-size: 22px;
+            background: #000000;
+            padding: 5px 1px 1px 2px;
+            text-decoration: none;
+
+
+          }
+          .box2
+              {
+                position: absolute;
+                top: 1504px;
+                left: 253px;
+              }
+              .thecard3
+              {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                transform-style: preserve-3d;
+                transition: all 0.5s ease;
+               left: 10px;
+              }
+              .mainconductor3
+              {
+                position: relative;
+                width: 200px;
+                height: 270px;
+              }
+              .button3
+              {
+                position: absolute;
+                top: 230px;
+                  left: 45px;
+                  -webkit-border-radius: 28;
+                  -moz-border-radius: 28;
+                  border-radius: 28px;
+                  -webkit-box-shadow: 0px 1px 4px #000000;
+                  -moz-box-shadow: 0px 1px 4px #000000;
+                  box-shadow: 0px 1px 4px #000000;
+                  font-family: Courier New;
+                  color: #ffffff;
+                  font-size: 22px;
+                  background: #000000;
+                  padding: 5px 1px 1px 2px;
+                  text-decoration: none;
+
+
+                }
+                .box3
+                    {
+                      position: absolute;
+                      top: 1814px;
+                      left: 253px;
+                    }
+                        .thecard4
+                        {
+                          position: absolute;
+                          width: 100%;
+                          height: 100%;
+                          transform-style: preserve-3d;
+                          transition: all 0.5s ease;
+                         left: 10px;
+                        }
+                        .mainconductor4
+                        {
+                          position: relative;
+                          width: 200px;
+                          height: 270px;
+                        }
+                        .button4
+                        {
+                          position: absolute;
+                          top: 230px;
+                            left: 45px;
+                            -webkit-border-radius: 28;
+                            -moz-border-radius: 28;
+                            border-radius: 28px;
+                            -webkit-box-shadow: 0px 1px 4px #000000;
+                            -moz-box-shadow: 0px 1px 4px #000000;
+                            box-shadow: 0px 1px 4px #000000;
+                            font-family: Courier New;
+                            color: #ffffff;
+                            font-size: 22px;
+                            background: #000000;
+                            padding: 5px 1px 1px 2px;
+                            text-decoration: none;
+
+
+                          }
+                          .box4
+                              {
+                                position: absolute;
+                                top: 1814px;
+                                left: 10px;
+                              }
+
+                              .thecard5
+                              {
+                                position: absolute;
+                                width: 100%;
+                                height: 100%;
+                                transform-style: preserve-3d;
+                                transition: all 0.5s ease;
+                               left: 10px;
+                              }
+                              .mainconductor5
+                              {
+                                position: relative;
+                                width: 200px;
+                                height: 270px;
+                              }
+                              .button5
+                              {
+                                position: absolute;
+                                top: 230px;
+                                  left: 45px;
+                                  -webkit-border-radius: 28;
+                                  -moz-border-radius: 28;
+                                  border-radius: 28px;
+                                  -webkit-box-shadow: 0px 1px 4px #000000;
+                                  -moz-box-shadow: 0px 1px 4px #000000;
+                                  box-shadow: 0px 1px 4px #000000;
+                                  font-family: Courier New;
+                                  color: #ffffff;
+                                  font-size: 22px;
+                                  background: #000000;
+                                  padding: 5px 1px 1px 2px;
+                                  text-decoration: none;
+
+
+                                }
+                                .box5
+                                    {
+                                      position: absolute;
+                                      top: 2114px;
+                                      left: 10px;
+                                    }
+
+                                    .thecard6
+                                    {
+                                      position: absolute;
+                                      width: 100%;
+                                      height: 100%;
+                                      transform-style: preserve-3d;
+                                      transition: all 0.5s ease;
+                                     left: 10px;
+                                    }
+                                    .mainconductor6
+                                    {
+                                      position: relative;
+                                      width: 200px;
+                                      height: 270px;
+                                    }
+                                    .button6
+                                    {
+                                      position: absolute;
+                                      top: 230px;
+                                        left: 45px;
+                                        -webkit-border-radius: 28;
+                                        -moz-border-radius: 28;
+                                        border-radius: 28px;
+                                        -webkit-box-shadow: 0px 1px 4px #000000;
+                                        -moz-box-shadow: 0px 1px 4px #000000;
+                                        box-shadow: 0px 1px 4px #000000;
+                                        font-family: Courier New;
+                                        color: #ffffff;
+                                        font-size: 22px;
+                                        background: #000000;
+                                        padding: 5px 1px 1px 2px;
+                                        text-decoration: none;
+
+
+                                      }
+                                      .box6
+                                          {
+                                            position: absolute;
+                                            top: 2114px;
+                                            left: 253px;
+                                          }
+                                          .thecard7
+                                          {
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 100%;
+                                            transform-style: preserve-3d;
+                                            transition: all 0.5s ease;
+                                           left: 10px;
+                                          }
+                                          .mainconductor7
+                                          {
+                                            position: relative;
+                                            width: 200px;
+                                            height: 270px;
+                                          }
+                                          .button7
+                                          {
+                                            position: absolute;
+                                            top: 230px;
+                                              left: 45px;
+                                              -webkit-border-radius: 28;
+                                              -moz-border-radius: 28;
+                                              border-radius: 28px;
+                                              -webkit-box-shadow: 0px 1px 4px #000000;
+                                              -moz-box-shadow: 0px 1px 4px #000000;
+                                              box-shadow: 0px 1px 4px #000000;
+                                              font-family: Courier New;
+                                              color: #ffffff;
+                                              font-size: 22px;
+                                              background: #000000;
+                                              padding: 5px 1px 1px 2px;
+                                              text-decoration: none;
+
+
+                                            }
+                                            .box7
+                                                {
+                                                  position: absolute;
+                                                  top: 2414px;
+                                                  left: 253px;
+                                                }
+                                                .thecard8
+                                                {
+                                                  position: absolute;
+                                                  width: 100%;
+                                                  height: 100%;
+                                                  transform-style: preserve-3d;
+                                                  transition: all 0.5s ease;
+                                                 left: 10px;
+                                                }
+                                                .mainconductor8
+                                                {
+                                                  position: relative;
+                                                  width: 200px;
+                                                  height: 270px;
+                                                }
+
+                                                .button8
+                                                {
+                                                  position: absolute;
+                                                  top: 230px;
+                                                    left: 45px;
+                                                    -webkit-border-radius: 28;
+                                                    -moz-border-radius: 28;
+                                                    border-radius: 28px;
+                                                    -webkit-box-shadow: 0px 1px 4px #000000;
+                                                    -moz-box-shadow: 0px 1px 4px #000000;
+                                                    box-shadow: 0px 1px 4px #000000;
+                                                    font-family: Courier New;
+                                                    color: #ffffff;
+                                                    font-size: 22px;
+                                                    background: #000000;
+                                                    padding: 5px 1px 1px 2px;
+                                                    text-decoration: none;
+
+
+                                                  }
+                                                  .box8
+                                                      {
+                                                        position: absolute;
+                                                        top: 2414px;
+                                                        left: 10px;
+                                                      }
+                                                      .thefront2
+                                                      {
+                                                        position: absolute;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        backface-visibility: hidden;
+                                                        background-image: url(Ttnstckomb.jpg);
+                                                        background-size: cover;
+                                                        background-position: -28px;
+                                                        color:#000;
+                                                        text-align: center;
+                                                        font-family:'zilla slab',sans-serif;
+                                                        border-radius: 20px;
+                                                        position: absolute;
+                                                        top:30px;
+                                                        font-size: 26px;
+                                                        font-weight: bold;
+                                                      }
+                                                      .container
+                                                      {
+                                                        position: absolute;
+                                                        top: 120%;
+                                                        left: 50%;
+                                                        transform: translate(-50%,-50%);
+                                                        width: 400px;
+                                                        padding: 30px;
+                                                        background: #fff;
+                                                        box-sizing: border-box;
+                                                        border-radius: 10px;
+                                                        box-shadow: 0 15px 50px rgba(0,0,0,.2);
+                                                      }
+
+                                                      .container2
+                                                      {
+                                                        position: absolute;
+                                                        top: 190%;
+                                                        left: 50%;
+                                                        transform: translate(-50%,-50%);
+                                                        width: 400px;
+                                                        padding: 30px;
+                                                        background: #fff;
+                                                        box-sizing: border-box;
+                                                        border-radius: 10px;
+                                                        box-shadow: 0 15px 50px rgba(0,0,0,.2);
+                                                      }
+                                                      .pp1
+                                                      {
+                                                        color: #fff;
+                                                        text-shadow: 0 0 15px #000;
+                                                        font-size: 8px;
+                                                        color: #fff;
+                                                        text-shadow: 0 0 5px #999;
+                                                        position: absolute;
+                                                        top: 10;
+                                                        left: 0;
+                                                        right: 3;
+                                                        bottom: 0;
+                                                        opacity: 0;
+                                                        transition: opacity 0.4s ease-in-out;
+                                                        background: none;
+                                                        cursor: pointer;
+                                                      }
+    }
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .heading{
+        font-size: 3rem;
+    }
+    .mainconductor1
+    {
+      position: relative;
+      width: 200px;
+      height: 270px;
+    }
+    .button1
+    {
+      position: absolute;
+      top: 230px;
+        left: 45px;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        -webkit-box-shadow: 0px 1px 4px #000000;
+        -moz-box-shadow: 0px 1px 4px #000000;
+        box-shadow: 0px 1px 4px #000000;
+        font-family: Courier New;
+        color: #ffffff;
+        font-size: 22px;
+        background: #000000;
+        padding: 5px 1px 1px 2px;
+        text-decoration: none;
+
+
+      }
+      .thecard2
+      {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+       left: 10px;
+      }
+      .mainconductor2
+      {
+        position: relative;
+        width: 200px;
+        height: 270px;
+      }
+      .button2
+      {
+        position: absolute;
+        top: 230px;
+          left: 45px;
+          -webkit-border-radius: 28;
+          -moz-border-radius: 28;
+          border-radius: 28px;
+          -webkit-box-shadow: 0px 1px 4px #000000;
+          -moz-box-shadow: 0px 1px 4px #000000;
+          box-shadow: 0px 1px 4px #000000;
+          font-family: Courier New;
+          color: #ffffff;
+          font-size: 22px;
+          background: #000000;
+          padding: 5px 1px 1px 2px;
+          text-decoration: none;
+
+
+        }
+        .box2
+            {
+              position: absolute;
+              top: 1504px;
+              left: 253px;
+            }
+            .thecard3
+            {
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              transform-style: preserve-3d;
+              transition: all 0.5s ease;
+             left: 10px;
+            }
+            .mainconductor3
+            {
+              position: relative;
+              width: 200px;
+              height: 270px;
+            }
+            .button3
+            {
+              position: absolute;
+              top: 230px;
+                left: 45px;
+                -webkit-border-radius: 28;
+                -moz-border-radius: 28;
+                border-radius: 28px;
+                -webkit-box-shadow: 0px 1px 4px #000000;
+                -moz-box-shadow: 0px 1px 4px #000000;
+                box-shadow: 0px 1px 4px #000000;
+                font-family: Courier New;
+                color: #ffffff;
+                font-size: 22px;
+                background: #000000;
+                padding: 5px 1px 1px 2px;
+                text-decoration: none;
+
+
+              }
+              .box3
+                  {
+                    position: absolute;
+                    top: 1814px;
+                    left: 253px;
+                  }
+                      .thecard4
+                      {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        transform-style: preserve-3d;
+                        transition: all 0.5s ease;
+                       left: 10px;
+                      }
+                      .mainconductor4
+                      {
+                        position: relative;
+                        width: 200px;
+                        height: 270px;
+                      }
+                      .button4
+                      {
+                        position: absolute;
+                        top: 230px;
+                          left: 45px;
+                          -webkit-border-radius: 28;
+                          -moz-border-radius: 28;
+                          border-radius: 28px;
+                          -webkit-box-shadow: 0px 1px 4px #000000;
+                          -moz-box-shadow: 0px 1px 4px #000000;
+                          box-shadow: 0px 1px 4px #000000;
+                          font-family: Courier New;
+                          color: #ffffff;
+                          font-size: 22px;
+                          background: #000000;
+                          padding: 5px 1px 1px 2px;
+                          text-decoration: none;
+
+
+                        }
+                        .box4
+                            {
+                              position: absolute;
+                              top: 1814px;
+                              left: 10px;
+                            }
+
+                            .thecard5
+                            {
+                              position: absolute;
+                              width: 100%;
+                              height: 100%;
+                              transform-style: preserve-3d;
+                              transition: all 0.5s ease;
+                             left: 10px;
+                            }
+                            .mainconductor5
+                            {
+                              position: relative;
+                              width: 200px;
+                              height: 270px;
+                            }
+                            .button5
+                            {
+                              position: absolute;
+                              top: 230px;
+                                left: 45px;
+                                -webkit-border-radius: 28;
+                                -moz-border-radius: 28;
+                                border-radius: 28px;
+                                -webkit-box-shadow: 0px 1px 4px #000000;
+                                -moz-box-shadow: 0px 1px 4px #000000;
+                                box-shadow: 0px 1px 4px #000000;
+                                font-family: Courier New;
+                                color: #ffffff;
+                                font-size: 22px;
+                                background: #000000;
+                                padding: 5px 1px 1px 2px;
+                                text-decoration: none;
+
+
+                              }
+                              .box5
+                                  {
+                                    position: absolute;
+                                    top: 2114px;
+                                    left: 10px;
+                                  }
+
+                                  .thecard6
+                                  {
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100%;
+                                    transform-style: preserve-3d;
+                                    transition: all 0.5s ease;
+                                   left: 10px;
+                                  }
+                                  .mainconductor6
+                                  {
+                                    position: relative;
+                                    width: 200px;
+                                    height: 270px;
+                                  }
+                                  .button6
+                                  {
+                                    position: absolute;
+                                    top: 230px;
+                                      left: 45px;
+                                      -webkit-border-radius: 28;
+                                      -moz-border-radius: 28;
+                                      border-radius: 28px;
+                                      -webkit-box-shadow: 0px 1px 4px #000000;
+                                      -moz-box-shadow: 0px 1px 4px #000000;
+                                      box-shadow: 0px 1px 4px #000000;
+                                      font-family: Courier New;
+                                      color: #ffffff;
+                                      font-size: 22px;
+                                      background: #000000;
+                                      padding: 5px 1px 1px 2px;
+                                      text-decoration: none;
+
+
+                                    }
+                                    .box6
+                                        {
+                                          position: absolute;
+                                          top: 2114px;
+                                          left: 253px;
+                                        }
+                                        .thecard7
+                                        {
+                                          position: absolute;
+                                          width: 100%;
+                                          height: 100%;
+                                          transform-style: preserve-3d;
+                                          transition: all 0.5s ease;
+                                         left: 10px;
+                                        }
+                                        .mainconductor7
+                                        {
+                                          position: relative;
+                                          width: 200px;
+                                          height: 270px;
+                                        }
+                                        .button7
+                                        {
+                                          position: absolute;
+                                          top: 230px;
+                                            left: 45px;
+                                            -webkit-border-radius: 28;
+                                            -moz-border-radius: 28;
+                                            border-radius: 28px;
+                                            -webkit-box-shadow: 0px 1px 4px #000000;
+                                            -moz-box-shadow: 0px 1px 4px #000000;
+                                            box-shadow: 0px 1px 4px #000000;
+                                            font-family: Courier New;
+                                            color: #ffffff;
+                                            font-size: 22px;
+                                            background: #000000;
+                                            padding: 5px 1px 1px 2px;
+                                            text-decoration: none;
+
+
+                                          }
+                                          .box7
+                                              {
+                                                position: absolute;
+                                                top: 2414px;
+                                                left: 253px;
+                                              }
+                                              .thecard8
+                                              {
+                                                position: absolute;
+                                                width: 100%;
+                                                height: 100%;
+                                                transform-style: preserve-3d;
+                                                transition: all 0.5s ease;
+                                               left: 10px;
+                                              }
+                                              .mainconductor8
+                                              {
+                                                position: relative;
+                                                width: 200px;
+                                                height: 270px;
+                                              }
+
+                                              .button8
+                                              {
+                                                position: absolute;
+                                                top: 230px;
+                                                  left: 45px;
+                                                  -webkit-border-radius: 28;
+                                                  -moz-border-radius: 28;
+                                                  border-radius: 28px;
+                                                  -webkit-box-shadow: 0px 1px 4px #000000;
+                                                  -moz-box-shadow: 0px 1px 4px #000000;
+                                                  box-shadow: 0px 1px 4px #000000;
+                                                  font-family: Courier New;
+                                                  color: #ffffff;
+                                                  font-size: 22px;
+                                                  background: #000000;
+                                                  padding: 5px 1px 1px 2px;
+                                                  text-decoration: none;
+
+
+                                                }
+                                                .box8
+                                                    {
+                                                      position: absolute;
+                                                      top: 2414px;
+                                                      left: 10px;
+                                                    }
+                                                    .thefront2
+                                                    {
+                                                      position: absolute;
+                                                      width: 100%;
+                                                      height: 100%;
+                                                      backface-visibility: hidden;
+                                                      background-image: url(Ttnstckomb.jpg);
+                                                      background-size: cover;
+                                                      background-position: -28px;
+                                                      color:#000;
+                                                      text-align: center;
+                                                      font-family:'zilla slab',sans-serif;
+                                                      border-radius: 20px;
+                                                      position: absolute;
+                                                      top:30px;
+                                                      font-size: 26px;
+                                                      font-weight: bold;
+                                                    }
+                                                    .container
+                                                    {
+                                                      position: absolute;
+                                                      top: 120%;
+                                                      left: 50%;
+                                                      transform: translate(-50%,-50%);
+                                                      width: 400px;
+                                                      padding: 30px;
+                                                      background: #fff;
+                                                      box-sizing: border-box;
+                                                      border-radius: 10px;
+                                                      box-shadow: 0 15px 50px rgba(0,0,0,.2);
+                                                    }
+
+                                                    .container2
+                                                    {
+                                                      position: absolute;
+                                                      top: 190%;
+                                                      left: 50%;
+                                                      transform: translate(-50%,-50%);
+                                                      width: 400px;
+                                                      padding: 30px;
+                                                      background: #fff;
+                                                      box-sizing: border-box;
+                                                      border-radius: 10px;
+                                                      box-shadow: 0 15px 50px rgba(0,0,0,.2);
+                                                    }
+                                                    .pp1
+                                                    {
+                                                      color: #fff;
+                                                      text-shadow: 0 0 15px #000;
+                                                      font-size: 8px;
+                                                      color: #fff;
+                                                      text-shadow: 0 0 5px #999;
+                                                      position: absolute;
+                                                      top: 10;
+                                                      left: 0;
+                                                      right: 3;
+                                                      bottom: 0;
+                                                      opacity: 0;
+                                                      transition: opacity 0.4s ease-in-out;
+                                                      background: none;
+                                                      cursor: pointer;
+                                                    }
+}
